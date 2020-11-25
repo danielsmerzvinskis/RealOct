@@ -53,8 +53,8 @@
             <ul class="nav navbar-nav">
                 <li><a href="index">Home</a></li>
                 <li><a href="gallery">Gallery</a></li>
-                <li class="active"><a href="#">Registration</a></li>
-                <li><a href="login">Log in</a></li>
+                <li><a href="links">Registration</a></li>
+                <li class="active"><a href="#">Log in</a></li>
                 <li><a href="contacts">Contact Us</a></li>
             </ul>
         </div>
@@ -72,21 +72,23 @@
             <div class="container">
               <h1>Register</h1>
               <h4>Fill out the forms, to create your account</h4>
-              <h4>Password must contain 8 or more characters</h4>
-              <h4>Username must contain atleast 3 characters</h4>
+              <h4>Comment must be within 200 word amount </h4>
               <hr>
-
-              <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
-              <label for="psw"><b>Username</b></label>
-              <input type="text" name="username" placeholder="Username" pattern=".{3,}" required title="Atleast 3 characters" required>
-
-              <label for="psw-repeat"><b>Password</b></label>
-              <input type="password" id="pwd" name="pwd" pattern=".{8,}" title="Eight or more characters" required>
-              <button type="submit" class="registerbtn">Register</button>
+            <div class="container signin">
+              <h2>Already have an account? Sign in.</h2>
+                <input type="text" name="username" placeholder="Username" pattern=".{3,}" required>
+                <input type="password" name="password" placeholder="Password" pattern=".{8,}" required>
+                <input type="submit" value="Login">
             </div>
             <hr>
+            <div class="container signin">
+              <h2> Add a comment </h2>
+              <textarea rows="4" cols="50" name="comment" form="usrform" maxlength="200">
+                Enter text here...</textarea>
+                <input type="submit" value="Submit">
+          </div>
+          </form>
+
         </div>
         
         <!-- <div class="col-sm-2 sidenav">

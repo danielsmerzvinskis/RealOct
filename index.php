@@ -46,14 +46,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="img/logo2.png" width="34" height="34"></a>
+            <a class="navbar-brand" href="index"><img src="img/logo2.png" width="34" height="34"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="links.php">Links</a></li>
-                <li><a href="contacts.php">Contact Us</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="links">Registration</a></li>
+                <li><a href="login">Log in</a></li>
+                <li><a href="contacts">Contact Us</a></li>
             </ul>
         </div>
     </div>
